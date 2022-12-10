@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VinuezaValverdeVintimilla_P2.InicioSesion"
+             Title="InicioSesion"
+             BackgroundColor="LightYellow">
+    <VerticalStackLayout>
+        <Grid>
+            <StackLayout Margin="25">
+                <Image Source="logo2.png" HorizontalOptions="StartAndExpand"/>
+
+                <StackLayout Margin="10,30">
+                    <Label Style="{StaticResource Bienvenido}" FontSize="32" Text="Inicio de Sesión"/>
+                    <Label FontFamily="Sitka" FontSize="14" Text="Ingrese sus credenciales:"/>
+                </StackLayout>
+
+                <StackLayout Margin="10">
+                    <Label Margin="0,10" FontFamily="Sitka" FontSize="16" Text="Usuario:"/>
+                    <Grid Margin="0,3">
+                        <Frame Opacity="16" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Ingrese su nombre de usuario o correo" 
+                               PlaceholderColor="LightGray" Margin="5,0"
+                               FontFamily="Sitka"/>
+                    </Grid>
+
+                    <Label Margin="0,10" FontFamily="Sitka" FontSize="16" Text="Contraseña:"/>
+                    <Grid Margin="0,3">
+                        <Frame Opacity="16" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Ingrese su contraseña"
+                               PlaceholderColor="LightGray" Margin="5,0" IsPassword="True"
+                               FontFamily="Sitka"/>
+                    </Grid>
+
+                </StackLayout>
+
+                <Button Margin="20" BackgroundColor="Moccasin"
+                        Text="Aceptar" TextColor="Black" FontSize="20" FontFamily="Sitka" Clicked="OnCounterClicked1"/>
+
+                <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+                    <Button Margin="10" TextColor="Gray" BackgroundColor="Transparent" FontSize="12" 
+                           Text="Olvidó la contraseña?" HorizontalOptions="StartAndExpand"  Clicked="OnCounterClicked"/>
+
+                </StackLayout>
+                    
+            </StackLayout>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
