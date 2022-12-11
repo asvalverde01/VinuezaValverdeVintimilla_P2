@@ -9,5 +9,6 @@ public partial class App : Application
 		navPage.BarBackground = Colors.Moccasin;
 		navPage.BarTextColor = Colors.Black;
 		MainPage = navPage;
-	}
+		MainPage = new AppShell();
+    }
 }

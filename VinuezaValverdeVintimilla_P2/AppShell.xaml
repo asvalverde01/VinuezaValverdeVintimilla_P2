@@ -22,8 +22,8 @@
             Icon="camara.png"/>
 
         <ShellContent
-            Title="Otros"
-            ContentTemplate="{DataTemplate Views:Subir}"
+            Title="Post"
+            ContentTemplate="{DataTemplate Views:NotePage}"
             Icon="comentario.png"/>
 
         <ShellContent
