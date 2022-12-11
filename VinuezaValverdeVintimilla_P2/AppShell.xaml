@@ -4,7 +4,33 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:VinuezaValverdeVintimilla_P2"
+    xmlns:Views="clr-namespace:VinuezaValverdeVintimilla_P2.Views"
+    NavigationPage.HasNavigationBar="False"
     Shell.FlyoutBehavior="Disabled">
 
+
+    <TabBar>
+
+        <ShellContent 
+            Title="Inicio"
+            ContentTemplate="{DataTemplate Views:Inicio}"
+            Icon="casa.png"/>
+
+        <ShellContent
+            Title="Subir"
+            ContentTemplate="{DataTemplate Views:Subir}"
+            Icon="camara.png"/>
+
+        <ShellContent
+            Title="Otros"
+            ContentTemplate="{DataTemplate Views:Subir}"
+            Icon="comentario.png"/>
+
+        <ShellContent
+            Title="Acerca"
+            ContentTemplate="{DataTemplate Views:Acerca}"
+            Icon="acercade.png"/>
+
+    </TabBar>
 
 </Shell>

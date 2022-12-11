@@ -1,4 +1,4 @@
-namespace VinuezaValverdeVintimilla_P2;
+namespace VinuezaValverdeVintimilla_P2.Views;
 
 public partial class InicioSesion : ContentPage
 {
@@ -14,6 +14,6 @@ public partial class InicioSesion : ContentPage
 
 	private void OnCounterClicked1(object sender, EventArgs e)
 	{
-        Navigation.PushAsync(new Menu());
+        Navigation.PushAsync(new AppShell());
     }
 }

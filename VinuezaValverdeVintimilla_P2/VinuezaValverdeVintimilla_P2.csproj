@@ -58,16 +58,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Contraseña.xaml">
+	  <MauiXaml Update="Views\Acerca.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="InicioSesion.xaml">
+	  <MauiXaml Update="Views\Contraseña.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Menu.xaml">
+	  <MauiXaml Update="Views\Inicio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Principal.xaml">
+	  <MauiXaml Update="Views\InicioSesion.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Principal.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Subir.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

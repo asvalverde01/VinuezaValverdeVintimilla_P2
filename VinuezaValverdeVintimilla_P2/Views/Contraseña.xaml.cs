@@ -1,4 +1,4 @@
-namespace VinuezaValverdeVintimilla_P2;
+namespace VinuezaValverdeVintimilla_P2.Views;
 
 public partial class Contraseña : ContentPage
 {
