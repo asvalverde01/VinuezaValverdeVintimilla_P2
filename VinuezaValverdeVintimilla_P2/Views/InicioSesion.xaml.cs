@@ -11,9 +11,11 @@ public partial class InicioSesion : ContentPage
 	{
         Navigation.PushAsync(new Contraseña());
     }
-
+    
 	private void OnCounterClicked1(object sender, EventArgs e)
 	{
+        
         Navigation.PushAsync(new AppShell());
+        Application.Current.MainPage = new AppShell();
     }
 }
