@@ -1,12 +1,133 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="VinuezaValverdeVintimilla_P2.Views.Acerca"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightYellow">
+              
+    
+    <ScrollView>
+        
     <VerticalStackLayout>
-        <Label 
-            Text="Acerca de"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Grid>
+           
+            <StackLayout Margin="25">
+                    <Label Margin="20"
+                       FontSize="35" 
+                      
+                       Text="Cheese" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+                    <Image Source="logo.png" WidthRequest="190" Margin="10"/>
+                    <Label Margin="5"
+                       FontSize="20" 
+                       Text="Una red social de estudiantes para estudiantes" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    <Image Source="amigos.gif" WidthRequest="400" Margin="20"/>
+
+                    <Label Margin="20"
+                       FontSize="15" 
+                       Text="«El amor tiene su propio color, compártelo con alguien antes de que se desvanezca». Nishan Panwar." 
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    <Label Style="{StaticResource Bienvenido}" 
+                       FontSize="32" Text="Creadores" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+
+
+
+                    <StackLayout Margin="10,10">
+                    <Label Style="{StaticResource Bienvenido}" 
+                           FontSize="15" 
+                           Text="Thyara Vintimilla"
+                           TextColor="#F2AB38"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    <Image Source="thyara.png" WidthRequest="100"/>
+                        <Label
+                       Text="thyara.vintimilla@udla.edu.ec"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                        <Label
+                       Text="0990722955"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Margin="10">
+                    <Label Style="{StaticResource Bienvenido}" 
+                           FontSize="15" 
+                           Text="Estefanía Vinueza"
+                           TextColor="#ECAE49"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    <Image Source="estefy.png" WidthRequest="100"/>
+                        <Label
+                       Text="jadira.vinueza@udla.edu.ec"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                        <Label
+                       Text="0987794187"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    </StackLayout>
+                <StackLayout Margin="10">
+                    <Label Style="{StaticResource Bienvenido}" 
+                           FontSize="15" 
+                           Text="Sebastian Valverde"
+                           TextColor="#ECAE49"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                    <Image Source="sebas.png" WidthRequest="100"/>
+                        <Label
+                       Text="sebastian.valverde@udla.edu.ec"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                        <Label
+                       Text="0992507700"
+                       FontSize="12"  
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+                    </StackLayout>
+
+                    <StackLayout Margin="10,30">
+                        
+                        <Image Source="chicos.png" WidthRequest="150"/>
+
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Margin="5"
+                       FontSize="20" 
+                       Text="Gracias por usar Cheese" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+        </Grid>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

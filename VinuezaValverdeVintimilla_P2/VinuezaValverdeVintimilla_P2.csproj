@@ -50,6 +50,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\acercade.png" />
+	  <None Remove="Resources\Images\amigos.gif" />
 	  <None Remove="Resources\Images\camara.png" />
 	  <None Remove="Resources\Images\casa.png" />
 	  <None Remove="Resources\Images\comentario.png" />
@@ -85,6 +86,10 @@
 	  <MauiXaml Update="Views\Subir.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Images\Creadores\" />
 	</ItemGroup>
 
 </Project>
