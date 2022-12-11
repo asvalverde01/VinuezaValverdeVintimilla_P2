@@ -4,8 +4,8 @@
              x:Class="VinuezaValverdeVintimilla_P2.Views.Principal"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="LightYellow">
-             
-    
+
+
     <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
@@ -29,5 +29,21 @@
                 FontSize="20"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
+
+        <Label
+                        x:Name="HelloLabel"
+                        Text="Hello, World!"
+                        SemanticProperties.HeadingLevel="Level1"
+                        FontSize="32"
+                        HorizontalOptions="Center" />
+
+        <Button
+                x:Name="GetUserInfoBtn"
+                Text="Load User Info"
+                SemanticProperties.Hint="Loads user information from Microsoft Graph"
+                Clicked="GetUserInfoBtn_Clicked"
+                HorizontalOptions="Center" />
     </VerticalStackLayout>
+
+
 </ContentPage>
