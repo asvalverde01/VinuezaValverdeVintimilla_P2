@@ -55,6 +55,12 @@
 	  <None Remove="Resources\Images\comentario.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\logo2.png" />
+	  <None Remove="Resources\Images\p1.png" />
+	  <None Remove="Resources\Images\p2.png" />
+	  <None Remove="Resources\Images\p3.png" />
+	  <None Remove="Resources\Images\p4.png" />
+	  <None Remove="Resources\Images\p5.png" />
+	  <None Remove="Resources\Images\p6.png" />
 	</ItemGroup>
 
 	<ItemGroup>
