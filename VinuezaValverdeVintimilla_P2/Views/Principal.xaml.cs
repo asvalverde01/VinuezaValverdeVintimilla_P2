@@ -10,5 +10,5 @@ public partial class Principal : ContentPage
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
 		Navigation.PushAsync(new InicioSesion());
-	}
+    }
 }
