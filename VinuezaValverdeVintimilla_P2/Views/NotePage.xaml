@@ -5,18 +5,23 @@
              NavigationPage.HasNavigationBar="False">
     
     <VerticalStackLayout Spacing="10" Margin="5">
+
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
+            <Image Source="userlogo.png"  />
+            <Button Text="Postear" Grid.Column="1"
+                    Clicked="SaveButton_Clicked" HeightRequest="40"
+                    WidthRequest="150"/>
+            <!--           
+            <Button Grid.Column="1"
+                    Text="Cancelar"
+                    Clicked="DeleteButton_Clicked" />
+            -->
+        </Grid>
         <Editor x:Name="TextEditor"
+                Margin="15"
+                FontSize="20" 
                 Placeholder="Cómo te sientes?"
                 Text="{Binding Text}"
                 HeightRequest="100" />
-
-        <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
-            <Button Text="Subir"
-                    Clicked="SaveButton_Clicked" />
-
-            <Button Grid.Column="1"
-                    Text="Eliminar"
-                    Clicked="DeleteButton_Clicked" />
-        </Grid>
     </VerticalStackLayout>
 </ContentPage>

@@ -11,7 +11,6 @@ public partial class NotePage : ContentPage
     string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
     public NotePage()
     {
-
         InitializeComponent();
         string appDataPath = FileSystem.AppDataDirectory;
         string randomFileName = $"{Path.GetRandomFileName()}.notes.txt";
@@ -27,15 +26,7 @@ public partial class NotePage : ContentPage
         if (BindingContext is Models.Note note)
             File.WriteAllText(note.Filename, TextEditor.Text);
 
-        try
-        {
-            await Shell.Current.GoToAsync("..");
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Error", ex.Message, "OK");
-        }
-
+        await Shell.Current.GoToAsync("..");
     }
 
     private async void DeleteButton_Clicked(object sender, EventArgs e)
@@ -47,14 +38,11 @@ public partial class NotePage : ContentPage
                 File.Delete(note.Filename);
 
         }
-
         await Shell.Current.GoToAsync("..");
     }
 
     private void LoadNote(string fileName)
     {
-
-
         Models.Note noteModel = new Models.Note();
         noteModel.Filename = fileName;
 
@@ -66,7 +54,4 @@ public partial class NotePage : ContentPage
 
         BindingContext = noteModel;
     }
-
-
-
 }
