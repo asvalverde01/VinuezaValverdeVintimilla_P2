@@ -39,11 +39,10 @@
                 <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
                     <Button Margin="10" TextColor="Gray" BackgroundColor="Transparent" FontSize="12" 
                            Text="Olvidó la contraseña?" HorizontalOptions="StartAndExpand"  Clicked="OnCounterClicked"/>
-
                 </StackLayout>
-                    
+
             </StackLayout>
         </Grid>
-
+        
     </VerticalStackLayout>
 </ContentPage>

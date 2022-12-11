@@ -7,7 +7,7 @@
     <VerticalStackLayout Spacing="10" Margin="5">
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
-            <Image Source="userlogo.png"  />
+            <Image Source="userlogo.png" MaximumHeightRequest="64"/>
             <Button Text="Postear" Grid.Column="1"
                     Clicked="SaveButton_Clicked" HeightRequest="40"
                     WidthRequest="150"/>

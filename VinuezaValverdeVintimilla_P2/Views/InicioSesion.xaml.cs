@@ -1,8 +1,13 @@
+
+
 namespace VinuezaValverdeVintimilla_P2.Views;
 
 public partial class InicioSesion : ContentPage
 {
-	public InicioSesion()
+
+    
+
+    public InicioSesion()
 	{
 		InitializeComponent();
 	}
