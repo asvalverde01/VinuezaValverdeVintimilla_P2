@@ -23,6 +23,6 @@ public partial class Principal : ContentPage
             graphService = new GraphService();
         }
         user = await graphService.GetMyDetailsAsync();
-        HelloLabel.Text = $"Hello, {user.DisplayName}!";
+        //HelloLabel.Text = $"Hello, {user.DisplayName}!";
     }
 }

@@ -30,16 +30,9 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-        <Label
-                        x:Name="HelloLabel"
-                        Text="Hello, World!"
-                        SemanticProperties.HeadingLevel="Level1"
-                        FontSize="32"
-                        HorizontalOptions="Center" />
-
         <Button
                 x:Name="GetUserInfoBtn"
-                Text="Load User Info"
+                Text="Iniciar con Microsoft"
                 SemanticProperties.Hint="Loads user information from Microsoft Graph"
                 Clicked="GetUserInfoBtn_Clicked"
                 HorizontalOptions="Center" />

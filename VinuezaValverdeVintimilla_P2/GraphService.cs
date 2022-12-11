@@ -7,7 +7,7 @@ namespace VinuezaValverdeVintimilla_P2
     {
         private readonly string[] _scopes = new[] { "User.Read" };
         private const string TenantId = "585a4d92-db1d-4bbb-b5ac-c5299e3894e3";
-        private const string ClientId = "3f04eb53-b2a6-4f9f-93b8-89497245ffec";
+        private const string ClientId = "14e8f567-94ee-4532-a23e-7ce467a7f8bf";
         private GraphServiceClient _client;
 
 
