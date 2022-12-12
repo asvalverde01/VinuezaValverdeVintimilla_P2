@@ -5,56 +5,56 @@
              Title="Perfil"
              BackgroundColor="LightYellow">
     <ScrollView>
-    <VerticalStackLayout>
-        
-        <Grid>
+        <VerticalStackLayout>
 
-            <StackLayout Margin="25">
-           
+            <Grid>
 
-                <Image Source="fondo.png" 
+                <StackLayout Margin="25">
+
+
+                    <Image Source="fondo.png" 
                        WidthRequest="590"  
                        Margin="10"
                        HeightRequest="200"/>
-                <Image Source="userlogo.png" 
+                    <Image Source="userlogo.png" 
                        WidthRequest="690"  
                        Margin="10"
                        HeightRequest="100"/>
-                <Label Margin="5"
+                    <Label Margin="5"
                        FontSize="20" 
                        Text="User" 
                        TextColor="#B97910"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                <Label Margin="5"
+                    <Label Margin="5"
                        FontSize="20" 
                        Text="@auser123" 
                        TextColor="#B97910"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
 
-                <Label Style="{StaticResource Bienvenido}" 
+                    <Label Style="{StaticResource Bienvenido}" 
                            FontSize="20" 
                         Text="Detalles de usuario"
                            TextColor="#B97910"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
-                <Label Margin="10"
+                    <Label Margin="10"
                            FontSize="15" 
                         Text="Sobre mi:"
                            TextColor="#B97931"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
 
-                <Border Margin="4" BackgroundColor="White">
+                    <Border Margin="4" BackgroundColor="White">
 
-                <Label  Margin =" 10" Style="{StaticResource Bienvenido}" 
+                        <Label  Margin =" 10" Style="{StaticResource Bienvenido}" 
                            FontSize="15" 
                            Text="Sobre mi: Trabajo en redes sociales y me gusta compartir mi opinión con mis amigos y familia. Amanete de la vida y adoror vivir nuevas experiencias."
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
-                </Border>
+                    </Border>
 
                     <Label Margin="10"
                            FontSize="15" 
@@ -71,7 +71,7 @@
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
-                        <Label  Margin =" 10" 
+                    <Label  Margin =" 10" 
                            FontSize="15" 
                            Text="Estudió en el COLEGIO SAN GABRIEL."
                            TextColor="Black"
@@ -165,7 +165,7 @@
 
 
                 </StackLayout>
-        </Grid>
-    </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

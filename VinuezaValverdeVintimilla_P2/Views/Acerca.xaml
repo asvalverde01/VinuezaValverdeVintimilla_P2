@@ -5,14 +5,14 @@
              x:Class="VinuezaValverdeVintimilla_P2.Views.Acerca"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="LightYellow">
-              
-    
+
+
     <ScrollView>
-        
-    <VerticalStackLayout>
-        <Grid>
-           
-            <StackLayout Margin="25">
+
+        <VerticalStackLayout>
+            <Grid>
+
+                <StackLayout Margin="25">
                     <Label Margin="20"
                        FontSize="35" 
                       
@@ -46,13 +46,13 @@
 
 
                     <StackLayout Margin="10,10">
-                    <Label Style="{StaticResource Bienvenido}" 
+                        <Label Style="{StaticResource Bienvenido}" 
                            FontSize="15" 
                            Text="Thyara Vintimilla"
                            TextColor="#F2AB38"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                    <Image Source="thyara.png" WidthRequest="100"/>
+                        <Image Source="thyara.png" WidthRequest="100"/>
                         <Label
                        Text="thyara.vintimilla@udla.edu.ec"
                        FontSize="12"  
@@ -65,16 +65,16 @@
                        TextColor="Black"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                </StackLayout>
+                    </StackLayout>
 
-                <StackLayout Margin="10">
-                    <Label Style="{StaticResource Bienvenido}" 
+                    <StackLayout Margin="10">
+                        <Label Style="{StaticResource Bienvenido}" 
                            FontSize="15" 
                            Text="Estefanía Vinueza"
                            TextColor="#ECAE49"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                    <Image Source="estefy.png" WidthRequest="100"/>
+                        <Image Source="estefy.png" WidthRequest="100"/>
                         <Label
                        Text="jadira.vinueza@udla.edu.ec"
                        FontSize="12"  
@@ -88,14 +88,14 @@
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
                     </StackLayout>
-                <StackLayout Margin="10">
-                    <Label Style="{StaticResource Bienvenido}" 
+                    <StackLayout Margin="10">
+                        <Label Style="{StaticResource Bienvenido}" 
                            FontSize="15" 
                            Text="Sebastian Valverde"
                            TextColor="#ECAE49"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
-                    <Image Source="sebas.png" WidthRequest="100"/>
+                        <Image Source="sebas.png" WidthRequest="100"/>
                         <Label
                        Text="sebastian.valverde@udla.edu.ec"
                        FontSize="12"  
@@ -112,7 +112,7 @@
                     </StackLayout>
 
                     <StackLayout Margin="10,30">
-                        
+
                         <Image Source="chicos.png" WidthRequest="150"/>
 
                     </StackLayout>
@@ -127,7 +127,7 @@
 
 
                 </StackLayout>
-        </Grid>
-    </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

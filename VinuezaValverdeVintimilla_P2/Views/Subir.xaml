@@ -5,7 +5,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="LightYellow">
     <ScrollView>
-        
+
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
@@ -51,7 +51,7 @@
                 Source="p6.png"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
-            
+
 
             <Image
                 x:Name="Image_Upload"
@@ -72,5 +72,5 @@
         </VerticalStackLayout>
 
     </ScrollView>
-    
+
 </ContentPage>
