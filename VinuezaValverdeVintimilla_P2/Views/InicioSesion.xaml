@@ -22,7 +22,6 @@
                                PlaceholderColor="LightGray" Margin="5,0"
                                FontFamily="Sitka"/>
                     </Grid>
-
                     <Label Margin="0,10" FontFamily="Sitka" FontSize="16" Text="Contraseña:"/>
                     <Grid Margin="0,3">
                         <Frame Opacity="16" CornerRadius="5"/>
@@ -30,9 +29,7 @@
                                PlaceholderColor="LightGray" Margin="5,0" IsPassword="True"
                                FontFamily="Sitka"/>
                     </Grid>
-
                 </StackLayout>
-
                 <Button Margin="20" BackgroundColor="Moccasin"
                         Text="Aceptar" TextColor="Black" FontSize="20" FontFamily="Sitka" Clicked="OnCounterClicked1"/>
 
@@ -40,9 +37,7 @@
                     <Button Margin="10" TextColor="Gray" BackgroundColor="Transparent" FontSize="12" 
                            Text="Olvidó la contraseña?" HorizontalOptions="StartAndExpand"  Clicked="OnCounterClicked"/>
                 </StackLayout>
-
             </StackLayout>
         </Grid>
-        
     </VerticalStackLayout>
 </ContentPage>

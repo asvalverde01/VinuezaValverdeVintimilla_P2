@@ -2,20 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VinuezaValverdeVintimilla_P2.Views.NotePage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightYellow">
     
     <VerticalStackLayout Spacing="10" Margin="5">
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
             <Image Source="userlogo.png" MaximumHeightRequest="64"/>
-            <Button Text="Postear" Grid.Column="1"
-                    Clicked="SaveButton_Clicked" HeightRequest="40"
-                    WidthRequest="150"/>
-            <!--           
             <Button Grid.Column="1"
-                    Text="Cancelar"
-                    Clicked="DeleteButton_Clicked" />
-            -->
+                    Text="Borrar"
+                    Clicked="DeleteButton_Clicked" BackgroundColor="PaleVioletRed" HeightRequest="40" WidthRequest="100"/>
+                       
+            
+            
         </Grid>
         <Editor x:Name="TextEditor"
                 Margin="15"
@@ -23,5 +22,9 @@
                 Placeholder="Cómo te sientes?"
                 Text="{Binding Text}"
                 HeightRequest="100" />
+        <Button Text="Publicar" Grid.Column="1" FontSize="20" FontAttributes="Bold"
+                    Clicked="SaveButton_Clicked" HeightRequest="50"
+                    WidthRequest="200" />
+        
     </VerticalStackLayout>
 </ContentPage>

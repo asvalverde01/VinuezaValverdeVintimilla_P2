@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VinuezaValverdeVintimilla_P2.Views.Inicio"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightYellow">
 
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
@@ -36,7 +37,7 @@
                         <!-- Grid -->
                         <Grid>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="70"/>
+                                <RowDefinition Height="90"/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="70"/>
@@ -47,13 +48,26 @@
                             <!--Son-->
                             <Grid Grid.Column="1">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="30" />
-                                    <RowDefinition Height="30"/>
-                                    <RowDefinition />
+                                    <RowDefinition Height="20" />
+                                    <RowDefinition Height="20"/>
+                                    <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
+
+                                <Grid Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="25"/>
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="User" FontSize="18" FontAttributes="Bold"/>
+                                    <Image Grid.Column="1" Source="verified.png" />
+
+                                    <Label Grid.Column="2" Text="@auser123" FontSize="16" TextColor="Gray"/>
+                                </Grid>
                                 
-                                <Label Grid.Row="0" Text="{Binding Date}" FontSize="14" TextColor="Silver"/>
-                                <Label Grid.Row="1" Text="{Binding Text}" FontSize="18"/>
+                                <Label Grid.Row="1" Text="{Binding Date}" FontSize="14" TextColor="Silver"/>
+                                <Label Grid.Row="2" Text="{Binding Text}" FontSize="18"/>
+
                             </Grid>
                         </Grid>
                         
