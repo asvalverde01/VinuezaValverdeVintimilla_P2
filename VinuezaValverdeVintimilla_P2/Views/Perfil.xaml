@@ -99,9 +99,16 @@
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
-                
-                
-                
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Vivió en CUENCA."
+                            
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+
                     <Label Margin="10"
                            FontSize="15" 
                         Text="Información de contacto:"
