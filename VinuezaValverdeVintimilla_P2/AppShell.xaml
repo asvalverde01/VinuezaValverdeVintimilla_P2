@@ -25,6 +25,10 @@
             Title="Post"
             ContentTemplate="{DataTemplate Views:NotePage}"
             Icon="comentario.png"/>
+        <ShellContent
+            Title="Perfil"
+            ContentTemplate="{DataTemplate Views:Perfil}"
+            Icon="comentario.png"/>
 
         <ShellContent
             Title="Acerca"

@@ -49,11 +49,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Views\NewPage1.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Views\NewPage1.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\acercade.png" />
 	  <None Remove="Resources\Images\amigos.gif" />
 	  <None Remove="Resources\Images\camara.png" />
 	  <None Remove="Resources\Images\casa.png" />
 	  <None Remove="Resources\Images\comentario.png" />
+	  <None Remove="Resources\Images\fondo.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\logo2.png" />
 	  <None Remove="Resources\Images\p1.png" />
@@ -83,6 +92,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NotePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Perfil.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Principal.xaml">
