@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VinuezaValverdeVintimilla_P2.Views.Perfil"
+             Title="Perfil"
+             BackgroundColor="LightYellow">
+    <ScrollView>
+    <VerticalStackLayout>
+        
+        <Grid>
+
+            <StackLayout Margin="25">
+           
+
+                <Image Source="fondo.png" 
+                       WidthRequest="590"  
+                       Margin="10"
+                       HeightRequest="200"/>
+                <Image Source="userlogo.png" 
+                       WidthRequest="690"  
+                       Margin="10"
+                       HeightRequest="100"/>
+                <Label Margin="5"
+                       FontSize="20" 
+                       Text="User" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <Label Margin="5"
+                       FontSize="20" 
+                       Text="@auser123" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+                <Label Style="{StaticResource Bienvenido}" 
+                           FontSize="20" 
+                        Text="Detalles de usuario"
+                           TextColor="#B97910"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                <Label Margin="10"
+                           FontSize="15" 
+                        Text="Sobre mi:"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+                <Border Margin="4" BackgroundColor="White">
+
+                <Label  Margin =" 10" Style="{StaticResource Bienvenido}" 
+                           FontSize="15" 
+                           Text="Sobre mi: Trabajo en redes sociales y me gusta compartir mi opinión con mis amigos y familia. Amanete de la vida y adoror vivir nuevas experiencias."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                </Border>
+
+                    <Label Margin="10"
+                           FontSize="15" 
+                        Text="Formación Académica"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Estudió en la UNIVERSIDAD DE LAS AMÉRICAS."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                        <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Estudió en el COLEGIO SAN GABRIEL."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+                    <Label Margin="10"
+                           FontSize="15" 
+                        Text="Lugares de residencia:"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Vive en QUITO."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Vivió en SANGOLQUI."
+                            
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                
+                
+                
+                    <Label Margin="10"
+                           FontSize="15" 
+                        Text="Información de contacto:"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="0958887950"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label Margin="10"
+                           FontSize="15" 
+                        Text="Información de básica:"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label Margin =" 10" 
+                           FontSize="15" 
+                           Text="Hombre"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+                    <Label Margin =" 10" 
+                           FontSize="15" 
+                           Text="4 de Noviembre de 1996"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+                    <Label Margin="10"
+                           FontSize="15" 
+                            Text="Situación sentimental"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label Margin =" 10" 
+                           FontSize="15" 
+                           Text="Soltero"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+
+
+                </StackLayout>
+        </Grid>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
