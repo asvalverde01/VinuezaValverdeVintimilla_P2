@@ -5,6 +5,7 @@ namespace VinuezaValverdeVintimilla_P2.Models;
 internal class AllNotes
 {
     public ObservableCollection<Note> Notes { get; set; } = new ObservableCollection<Note>();
+    public static List<string> GetNotes { get; internal set; }
 
     public AllNotes() =>
         LoadNotes();
@@ -36,5 +37,15 @@ internal class AllNotes
         // Add each note into the ObservableCollection
         foreach (Note note in notes)
             Notes.Add(note);
+    }
+
+    internal static List<string> GetSearchResults(string query)
+    {
+        // Fills GetNotes with the notes that contain the query
+        GetNotes = Directory
+            .EnumerateFiles(FileSystem.AppDataDirectory, "*.notes.txt")
+            .Where(filename => File.ReadAllText(filename).Contains(query))
+            .ToList();
+        return GetNotes;
     }
 }

@@ -1,4 +1,6 @@
 
+using VinuezaValverdeVintimilla_P2.Models;
+
 namespace VinuezaValverdeVintimilla_P2.Views;
 
 public partial class Inicio : ContentPage
@@ -34,4 +36,11 @@ public partial class Inicio : ContentPage
             notesCollection.SelectedItem = null;
         }
     }
+    void OnTextChanged(object sender, EventArgs e)
+    {
+        SearchBar searchBar = (SearchBar)sender;
+        searchResults.ItemsSource = AllNotes.GetSearchResults(searchBar.Text);
+    }
+
+
 }

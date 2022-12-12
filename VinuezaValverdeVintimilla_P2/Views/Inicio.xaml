@@ -13,16 +13,25 @@
                  Order="Primary"
                  Priority="0"             
                  Clicked="Add_Clicked"/>
-
     </ContentPage.ToolbarItems>
+    
     <AbsoluteLayout>
 
+        <StackLayout>
+            <SearchBar x:Name="searchBar"
+                       Placeholder="Buscar notas"
+                   SearchCommand="{Binding PerformSearch}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
+            <ListView x:Name="searchResults"
+                  ItemsSource="{Binding SearchResults}" />
+        </StackLayout>
 
         <!-- Display notes in a list -->
         <CollectionView x:Name="notesCollection"
                         ItemsSource="{Binding Notes}"
                         Margin="20"
                         SelectionMode="Single"
+                        AbsoluteLayout.LayoutBounds="0,50"
                         SelectionChanged="notesCollection_SelectionChanged">
 
             <!-- Designate how the collection of items are laid out -->
