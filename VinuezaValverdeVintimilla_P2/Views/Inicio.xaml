@@ -19,7 +19,7 @@
 
         <StackLayout>
             <SearchBar x:Name="searchBar"
-                       Placeholder="Buscar notas"
+                       Placeholder="Buscar posts"
                    SearchCommand="{Binding PerformSearch}"
                    SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
             <ListView x:Name="searchResults"

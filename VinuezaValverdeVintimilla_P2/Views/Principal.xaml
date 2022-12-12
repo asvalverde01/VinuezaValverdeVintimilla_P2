@@ -22,17 +22,20 @@
             HorizontalOptions="Center" />
         <Button
                 x:Name="CounterBtn"
-                Text=" Ingresar "
-                BackgroundColor="Moccasin"
+                Text=" Ingresar con usuario "
+                
                 Margin="20"
                 TextColor="Black"
-                FontSize="20"
+                FontSize="18"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
         <Button
                 x:Name="GetUserInfoBtn"
-                Text="Iniciar con Microsoft"
+                Text="Ingresar con Microsoft"
+                BackgroundColor="Moccasin"
+                TextColor="Black"
+                FontSize="16"
                 SemanticProperties.Hint="Loads user information from Microsoft Graph"
                 Clicked="GetUserInfoBtn_Clicked"
                 HorizontalOptions="Center" />

@@ -28,7 +28,7 @@
         <ShellContent
             Title="Perfil"
             ContentTemplate="{DataTemplate Views:Perfil}"
-            Icon="comentario.png"/>
+            Icon="usuario.png"/>
 
         <ShellContent
             Title="Acerca"

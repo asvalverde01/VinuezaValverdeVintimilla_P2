@@ -6,20 +6,16 @@
              BackgroundColor="LightYellow">
     <ScrollView>
         <VerticalStackLayout>
-
-            <Grid>
-
-                <StackLayout Margin="25">
-
-
-                    <Image Source="fondo.png" 
+            <Image Source="fondo.png" 
                        WidthRequest="590"  
-                       Margin="10"
-                       HeightRequest="200"/>
-                    <Image Source="userlogo.png" 
+                       HeightRequest="200" />
+            <Image Source="userlogo.png" 
                        WidthRequest="690"  
                        Margin="10"
                        HeightRequest="100"/>
+            <Grid>
+                <StackLayout Margin="25">
+
                     <Label Margin="5"
                        FontSize="20" 
                        Text="User" 

@@ -71,6 +71,7 @@
 	  <None Remove="Resources\Images\p4.png" />
 	  <None Remove="Resources\Images\p5.png" />
 	  <None Remove="Resources\Images\p6.png" />
+	  <None Remove="Resources\Images\usuario.png" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -39,7 +39,7 @@ public partial class Inicio : ContentPage
     void OnTextChanged(object sender, EventArgs e)
     {
         SearchBar searchBar = (SearchBar)sender;
-        searchResults.ItemsSource = AllNotes.GetSearchResults(searchBar.Text);
+        //searchResults.ItemsSource = AllNotes.GetSearchResults(searchBar.Text);
     }
 
 
