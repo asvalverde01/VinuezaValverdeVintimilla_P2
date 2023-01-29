@@ -4,7 +4,7 @@
              
              x:Class="VinuezaValverdeVintimilla_P2.Views.Acerca"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightYellow">
+             BackgroundColor="White">
 
 
     <ScrollView>

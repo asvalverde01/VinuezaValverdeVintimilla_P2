@@ -1,4 +1,5 @@
 
+using Newtonsoft.Json;
 using VinuezaValverdeVintimilla_P2.Models;
 
 namespace VinuezaValverdeVintimilla_P2.Views;
@@ -8,8 +9,15 @@ public partial class Inicio : ContentPage
 	public Inicio()
 	{
 		InitializeComponent();
+        GetProfileInfo();
 
         BindingContext = new Models.AllNotes();
+    }
+
+    private void GetProfileInfo()
+    {
+        var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+        UserEmail.Text = userInfo.User.Email;
     }
 
     protected override void OnAppearing()

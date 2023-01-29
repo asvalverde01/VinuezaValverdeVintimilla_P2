@@ -10,7 +10,6 @@
 
 
     <TabBar>
-
         <ShellContent 
             Title="Inicio"
             ContentTemplate="{DataTemplate Views:Inicio}"

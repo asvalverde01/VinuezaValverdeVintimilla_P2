@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VinuezaValverdeVintimilla_P2.Views.Subir"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightYellow">
+             BackgroundColor="White">
     <ScrollView>
 
         <VerticalStackLayout

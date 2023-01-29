@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VinuezaValverdeVintimilla_P2.Views.NotePage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightYellow">
+             BackgroundColor="White">
     
     <VerticalStackLayout Spacing="10" Margin="5">
 
@@ -12,10 +12,9 @@
             <Button Grid.Column="1"
                     Text="Borrar"
                     Clicked="DeleteButton_Clicked" BackgroundColor="PaleVioletRed" HeightRequest="40" WidthRequest="100"/>
-                       
-            
-            
         </Grid>
+        
+        
         <Editor x:Name="TextEditor"
                 Margin="15"
                 FontSize="20" 
