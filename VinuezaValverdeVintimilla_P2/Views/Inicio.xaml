@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VinuezaValverdeVintimilla_P2.Views.Inicio"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightYellow">
+             BackgroundColor="White">
 
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
@@ -16,7 +16,12 @@
     </ContentPage.ToolbarItems>
     
     <AbsoluteLayout>
-
+        
+        <Label
+                x:Name="UserEmail"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" />
+        
         <StackLayout>
             <SearchBar x:Name="searchBar"
                        Placeholder="Buscar posts"

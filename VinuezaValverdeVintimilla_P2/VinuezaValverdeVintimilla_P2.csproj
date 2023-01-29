@@ -76,6 +76,7 @@
 
 	<ItemGroup>
 	  <PackageReference Include="Azure.Identity" Version="1.8.0" />
+	  <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
 	  <PackageReference Include="Microsoft.Graph" Version="4.48.0" />
 	</ItemGroup>
 
@@ -83,13 +84,7 @@
 	  <MauiXaml Update="Views\Acerca.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Contraseña.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\Inicio.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\InicioSesion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NotePage.xaml">
@@ -100,6 +95,9 @@
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Principal.xaml">
 	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\RegisterPage.xaml">
+	    <Generator></Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Subir.xaml">
 	    <Generator>MSBuild:Compile</Generator>
