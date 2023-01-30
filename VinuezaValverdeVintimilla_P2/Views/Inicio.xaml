@@ -8,11 +8,11 @@
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
         <!--<ToolbarItem Text="Add" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=White, Size=22}" /> -->
-        <ToolbarItem Text="Logo"
+        <ToolbarItem Text="Camera"
                  IconImageSource="logotrasnsm.png"
                  Order="Primary"
                  Priority="0"             
-                 Clicked="Add_Clicked"/>
+                 Clicked="Cam_Clicked"/>
     </ContentPage.ToolbarItems>
     
     <AbsoluteLayout>
@@ -100,6 +100,7 @@
         <Button Text="+" FontSize="30" BackgroundColor="#F7B548" TextColor="White" Clicked="Add_Clicked" CornerRadius="100"
                     AbsoluteLayout.LayoutFlags="PositionProportional"  
                     AbsoluteLayout.LayoutBounds=".95,.95,60,60" />
+
     </AbsoluteLayout>
 
 </ContentPage>

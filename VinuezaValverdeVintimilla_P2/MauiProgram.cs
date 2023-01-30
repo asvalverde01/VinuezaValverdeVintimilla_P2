@@ -1,4 +1,7 @@
-﻿namespace VinuezaValverdeVintimilla_P2;
+﻿using Microsoft.Extensions.DependencyInjection;
+using VinuezaValverdeVintimilla_P2.Views;
+
+namespace VinuezaValverdeVintimilla_P2;
 
 public static class MauiProgram
 {
@@ -14,7 +17,11 @@ public static class MauiProgram
                 fonts.AddFont("Sitka.ttc", "Sitka");
                 fonts.AddFont("Lobster-Regular.ttf", "Lobster");
             });
-
-		return builder.Build();
+        
+		// Para uso de la cámara
+        builder.Services.AddSingleton<IMediaPicker>(MediaPicker.Default);
+        builder.Services.AddSingleton<Inicio>();
+        // ------------------------------------------------
+        return builder.Build();
 	}
 }
