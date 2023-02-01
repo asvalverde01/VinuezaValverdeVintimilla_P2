@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace VinuezaValverdeVintimilla_P2.Models
 {
+    //Necesario para mostrar publicaciones
     public class ImageFile
     {
         public string byteBase64 { get; set; }
