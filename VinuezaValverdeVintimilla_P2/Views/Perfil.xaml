@@ -70,12 +70,21 @@
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
+                    
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Estudió en la UNAM."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
                     <Label  Margin =" 10" 
                            FontSize="15" 
                            Text="Estudió en el COLEGIO SAN GABRIEL."
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
+
+                    
 
                     <Label Margin="10"
                            FontSize="15" 
