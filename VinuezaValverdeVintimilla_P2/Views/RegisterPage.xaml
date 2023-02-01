@@ -4,7 +4,6 @@
              x:Class="VinuezaValverdeVintimilla_P2.Views.RegisterPage"
              Title="RegisterPage"
              NavigationPage.HasNavigationBar="False">
-
     <Grid
         BackgroundColor="#1C375C"
         HorizontalOptions="FillAndExpand"

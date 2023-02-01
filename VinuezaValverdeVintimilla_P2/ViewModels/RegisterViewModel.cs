@@ -3,6 +3,7 @@ using System.ComponentModel;
 
 namespace VinuezaValverdeVintimilla_P2.ViewModels
 {
+    //View model para registro
     internal class RegisterViewModel : INotifyPropertyChanged
     {
         private INavigation _navigation;

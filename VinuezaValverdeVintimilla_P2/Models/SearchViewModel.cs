@@ -9,6 +9,7 @@ using System.Windows.Input;
 
 namespace VinuezaValverdeVintimilla_P2.Models
 {
+    //Necesario para aplicar el MVVM
     public class SearchViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;

@@ -5,6 +5,7 @@ using VinuezaValverdeVintimilla_P2.Views;
 
 namespace VinuezaValverdeVintimilla_P2.ViewModels
 {
+    //View Model para login
     internal class LoginViewModel : INotifyPropertyChanged
     {
         public string webApiKey = "AIzaSyDNxP1WhGmdE1hfuX2vulZCpnWIj4VKvAc";
