@@ -21,6 +21,7 @@
                 Source="userlogo.png"
                 WidthRequest="80" />
         </StackLayout>
+        
         <Frame
             Grid.Row="1"
             Margin="0,0,0,-40"
