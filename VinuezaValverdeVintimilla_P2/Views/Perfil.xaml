@@ -169,6 +169,21 @@
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
 
+                    <Label Margin="10"
+                           FontSize="15" 
+                            Text="Estado civil"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label Margin =" 10" 
+                           FontSize="15" 
+                           Text="Soltero"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
 
 
 
