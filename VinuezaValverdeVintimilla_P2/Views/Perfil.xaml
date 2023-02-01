@@ -49,7 +49,7 @@
 
                         <Label  Margin =" 10" Style="{StaticResource Bienvenido}" 
                            FontSize="15" 
-                           Text="Sobre mi: Trabajo en redes sociales y me gusta compartir mi opinión con mis amigos y familia. Amanete de la vida y adoror vivir nuevas experiencias."
+                           Text="Sobre mi: Trabajo en redes sociales y me gusta compartir mi opinión con mis amigos y familia. Espero conocer que las nuevas oportunidades se den y sean factibles."
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
@@ -70,12 +70,21 @@
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
+                    
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Estudió en la UNAM."
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
                     <Label  Margin =" 10" 
                            FontSize="15" 
                            Text="Estudió en el COLEGIO SAN GABRIEL."
                            TextColor="Black"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
+
+                    
 
                     <Label Margin="10"
                            FontSize="15" 
@@ -148,6 +157,21 @@
                     <Label Margin="10"
                            FontSize="15" 
                             Text="Situación sentimental"
+                           TextColor="#B97931"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+
+                    <Label Margin =" 10" 
+                           FontSize="15" 
+                           Text="Soltero"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
+                    <Label Margin="10"
+                           FontSize="15" 
+                            Text="Estado civil"
                            TextColor="#B97931"
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
