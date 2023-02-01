@@ -1,5 +1,4 @@
 ﻿namespace VinuezaValverdeVintimilla_P2;
-
 public partial class App : Application
 {
 	public App()
@@ -7,8 +6,9 @@ public partial class App : Application
 		InitializeComponent();
 		
 		var navPage= new NavigationPage(new Views.Principal());
-		navPage.BarBackground = Colors.Moccasin;
-		navPage.BarTextColor = Colors.Black;
+		//navPage.BarBackground = Colors.Red;
+		//navPage.BarTextColor = Colors.Yellow;
 		MainPage = navPage;
     }
+
 }

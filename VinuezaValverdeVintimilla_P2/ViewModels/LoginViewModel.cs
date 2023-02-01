@@ -1,12 +1,6 @@
-﻿using Android.Content.Res;
-using Firebase.Auth;
+﻿using Firebase.Auth;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using VinuezaValverdeVintimilla_P2.Views;
 
 namespace VinuezaValverdeVintimilla_P2.ViewModels
@@ -23,7 +17,7 @@ namespace VinuezaValverdeVintimilla_P2.ViewModels
 
         public Command RegisterBtn { get; }
         public Command LoginBtn { get; }
-
+        
         public string UserName
         {
             get => userName; set

@@ -1,6 +1,5 @@
 
 using Newtonsoft.Json;
-using VinuezaValverdeVintimilla_P2.Models;
 
 namespace VinuezaValverdeVintimilla_P2.Views;
 
@@ -20,7 +19,7 @@ public partial class Inicio : ContentPage
     private void GetProfileInfo()
     {
         var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
-        UserEmail.Text = userInfo.User.Email;
+        //UserEmail.Text = userInfo.User.Email;
     }
 
     protected override void OnAppearing()
@@ -66,5 +65,10 @@ public partial class Inicio : ContentPage
                 await source.CopyToAsync(localFile);
             }
         }
+    }
+
+    private async void Date_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Date());
     }
 }

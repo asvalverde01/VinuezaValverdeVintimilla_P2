@@ -5,6 +5,7 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="#F7B548">
 
+
     <ContentPage.Content>
         <Grid
             BackgroundColor="#1C375C"
@@ -20,7 +21,9 @@
                     Aspect="AspectFit"
                     HeightRequest="100"
                     Source="userlogo.png"
-                    WidthRequest="80" />
+
+                    WidthRequest="100" />
+                
             </StackLayout>
 
             <Frame
