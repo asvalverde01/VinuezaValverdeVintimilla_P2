@@ -125,6 +125,15 @@
                        VerticalOptions="Center"/>
                     </StackLayout>
 
+                    <StackLayout>
+                        <Label Margin="5"
+                       FontSize="20" 
+                       Text="Esperamos que regreses pronto" 
+                       TextColor="#B97910"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                    </StackLayout>
+
 
                 </StackLayout>
             </Grid>
