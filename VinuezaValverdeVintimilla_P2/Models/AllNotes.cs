@@ -40,7 +40,7 @@ internal class AllNotes
     }
     internal static List<string> GetSearchResults(string query)
     {
-        // Fills GetNotes with the notes that contain the query
+
         GetNotes = Directory
             .EnumerateFiles(FileSystem.AppDataDirectory, "*.notes.txt")
             .Where(filename => File.ReadAllText(filename).Contains(query))
