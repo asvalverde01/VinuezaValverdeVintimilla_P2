@@ -36,6 +36,7 @@
                        TextColor="Black"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
+                    
                     <Label Style="{StaticResource Bienvenido}" 
                        FontSize="32" Text="Creadores" 
                        TextColor="#B97910"
@@ -53,6 +54,7 @@
                            HorizontalOptions="Center"
                            VerticalOptions="Center"/>
                         <Image Source="thyara.png" WidthRequest="100"/>
+                        
                         <Label
                        Text="thyara.vintimilla@udla.edu.ec"
                        FontSize="12"  
@@ -124,7 +126,6 @@
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
                     </StackLayout>
-
 
                 </StackLayout>
             </Grid>

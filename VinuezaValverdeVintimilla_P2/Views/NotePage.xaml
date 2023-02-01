@@ -13,8 +13,7 @@
                     Text="Borrar"
                     Clicked="DeleteButton_Clicked" BackgroundColor="PaleVioletRed" HeightRequest="40" WidthRequest="100"/>
         </Grid>
-        
-        
+             
         <Editor x:Name="TextEditor"
                 Margin="15"
                 FontSize="20" 
