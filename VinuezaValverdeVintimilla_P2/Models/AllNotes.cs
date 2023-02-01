@@ -9,15 +9,14 @@ internal class AllNotes
 
     public AllNotes() =>
         LoadNotes();
+    
 
     public void LoadNotes()
     {
         Notes.Clear();
 
-        // Get the folder where the notes are stored.
         string appDataPath = FileSystem.AppDataDirectory;
 
-        // Use Linq extensions to load the *.notes.txt files.
         IEnumerable<Note> notes = Directory
 
                                     // Select the file names from the directory
@@ -34,14 +33,12 @@ internal class AllNotes
                                     // With the final collection of notes, order them by date
                                     .OrderBy(note => note.Date);
 
-        // Add each note into the ObservableCollection
         foreach (Note note in notes)
             Notes.Add(note);
     }
 
     internal static List<string> GetSearchResults(string query)
     {
-        // Fills GetNotes with the notes that contain the query
         GetNotes = Directory
             .EnumerateFiles(FileSystem.AppDataDirectory, "*.notes.txt")
             .Where(filename => File.ReadAllText(filename).Contains(query))

@@ -117,6 +117,13 @@
                            HorizontalOptions="Start"
                            VerticalOptions="Start"/>
 
+                    <Label  Margin =" 10" 
+                           FontSize="15" 
+                           Text="Mauricio"
+                           TextColor="Black"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
 
                     <Label  Margin =" 10" 
                            FontSize="15" 
